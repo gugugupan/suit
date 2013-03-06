@@ -1,0 +1,603 @@
+--- 
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:05.466039 Z
+    name: pop
+    id: 1
+    created_at: 2013-03-06 14:08:05.466039 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:06.495507 Z
+    name: Love
+    id: 6
+    created_at: 2013-03-06 14:08:06.495507 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:06.694390 Z
+    name: female vocalists
+    id: 7
+    created_at: 2013-03-06 14:08:06.694390 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:06.902790 Z
+    name: singer-songwriter
+    id: 8
+    created_at: 2013-03-06 14:08:06.902790 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:07.090467 Z
+    name: acoustic
+    id: 9
+    created_at: 2013-03-06 14:08:07.090467 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:07.299592 Z
+    name: american
+    id: 10
+    created_at: 2013-03-06 14:08:07.299592 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:07.694693 Z
+    name: female
+    id: 12
+    created_at: 2013-03-06 14:08:07.694693 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:07.894005 Z
+    name: female vocalist
+    id: 13
+    created_at: 2013-03-06 14:08:07.894005 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:19.315674 Z
+    name: "2012"
+    id: 23
+    created_at: 2013-03-06 14:08:19.315674 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:19.888473 Z
+    name: indie pop
+    id: 25
+    created_at: 2013-03-06 14:08:19.888473 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:21.605742 Z
+    name: love at first listen
+    id: 26
+    created_at: 2013-03-06 14:08:21.605742 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:36.749378 Z
+    name: rnb
+    id: 41
+    created_at: 2013-03-06 14:08:36.749378 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:37.167557 Z
+    name: dance
+    id: 42
+    created_at: 2013-03-06 14:08:37.167557 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:37.387310 Z
+    name: Hip-Hop
+    id: 43
+    created_at: 2013-03-06 14:08:37.387310 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:37.618950 Z
+    name: r&b
+    id: 44
+    created_at: 2013-03-06 14:08:37.618950 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:37.817788 Z
+    name: hip hop
+    id: 45
+    created_at: 2013-03-06 14:08:37.817788 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:38.235147 Z
+    name: sexy
+    id: 47
+    created_at: 2013-03-06 14:08:38.235147 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:39.017208 Z
+    name: electronic
+    id: 48
+    created_at: 2013-03-06 14:08:39.017208 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:08:39.215472 Z
+    name: electropop
+    id: 49
+    created_at: 2013-03-06 14:08:39.215472 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:01.054778 Z
+    name: Ballad
+    id: 59
+    created_at: 2013-03-06 14:09:01.054778 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:02.391193 Z
+    name: soul
+    id: 61
+    created_at: 2013-03-06 14:09:02.391193 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:03.052670 Z
+    name: british
+    id: 63
+    created_at: 2013-03-06 14:09:03.052670 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:03.459831 Z
+    name: indie
+    id: 64
+    created_at: 2013-03-06 14:09:03.459831 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:04.098062 Z
+    name: UK
+    id: 66
+    created_at: 2013-03-06 14:09:04.098062 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:04.627150 Z
+    name: piano
+    id: 67
+    created_at: 2013-03-06 14:09:04.627150 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:08.175336 Z
+    name: blues
+    id: 70
+    created_at: 2013-03-06 14:09:08.175336 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:12.275494 Z
+    name: beautiful
+    id: 71
+    created_at: 2013-03-06 14:09:12.275494 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:13.568142 Z
+    name: Soundtrack
+    id: 72
+    created_at: 2013-03-06 14:09:13.568142 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:20.441113 Z
+    name: 10s
+    id: 76
+    created_at: 2013-03-06 14:09:20.441113 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:26.016039 Z
+    name: alternative
+    id: 77
+    created_at: 2013-03-06 14:09:26.016039 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:27.045544 Z
+    name: rock
+    id: 78
+    created_at: 2013-03-06 14:09:27.045544 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:27.253955 Z
+    name: alternative rock
+    id: 79
+    created_at: 2013-03-06 14:09:27.253955 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:27.694883 Z
+    name: britpop
+    id: 80
+    created_at: 2013-03-06 14:09:27.694883 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:28.355318 Z
+    name: indie rock
+    id: 82
+    created_at: 2013-03-06 14:09:28.355318 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:28.574857 Z
+    name: pop rock
+    id: 83
+    created_at: 2013-03-06 14:09:28.574857 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:46.920561 Z
+    name: instrumental
+    id: 87
+    created_at: 2013-03-06 14:09:46.920561 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:51.194927 Z
+    name: male vocalists
+    id: 92
+    created_at: 2013-03-06 14:09:51.194927 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:09:51.415060 Z
+    name: funk
+    id: 93
+    created_at: 2013-03-06 14:09:51.415060 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:10:10.234801 Z
+    name: synthpop
+    id: 107
+    created_at: 2013-03-06 14:10:10.234801 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:10:43.401387 Z
+    name: 90s
+    id: 128
+    created_at: 2013-03-06 14:10:43.401387 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:10:43.622015 Z
+    name: diva
+    id: 129
+    created_at: 2013-03-06 14:10:43.622015 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:10:44.468792 Z
+    name: 80s
+    id: 130
+    created_at: 2013-03-06 14:10:44.468792 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:11:44.394651 Z
+    name: easy listening
+    id: 157
+    created_at: 2013-03-06 14:11:44.394651 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:12:53.640861 Z
+    name: electro
+    id: 191
+    created_at: 2013-03-06 14:12:53.640861 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:14:54.162660 Z
+    name: chillout
+    id: 252
+    created_at: 2013-03-06 14:14:54.162660 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:15:52.536355 Z
+    name: experimental
+    id: 277
+    created_at: 2013-03-06 14:15:52.536355 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:15:52.744863 Z
+    name: Progressive rock
+    id: 278
+    created_at: 2013-03-06 14:15:52.744863 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:38.254172 Z
+    name: chinese
+    id: 289
+    created_at: 2013-03-06 14:16:38.254172 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:39.122344 Z
+    name: C-pop
+    id: 292
+    created_at: 2013-03-06 14:16:39.122344 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:39.342317 Z
+    name: Hong Kong
+    id: 293
+    created_at: 2013-03-06 14:16:39.342317 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:39.530342 Z
+    name: cantonese
+    id: 294
+    created_at: 2013-03-06 14:16:39.530342 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:39.970024 Z
+    name: cantopop
+    id: 296
+    created_at: 2013-03-06 14:16:39.970024 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:40.378446 Z
+    name: cpop
+    id: 298
+    created_at: 2013-03-06 14:16:40.378446 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:47.146778 Z
+    name: mandarin
+    id: 302
+    created_at: 2013-03-06 14:16:47.146778 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:16:53.374849 Z
+    name: Chinese Pop
+    id: 303
+    created_at: 2013-03-06 14:16:53.374849 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:04.777827 Z
+    name: metal
+    id: 308
+    created_at: 2013-03-06 14:17:04.777827 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:05.690000 Z
+    name: hard rock
+    id: 312
+    created_at: 2013-03-06 14:17:05.690000 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:27.316599 Z
+    name: Canadian
+    id: 317
+    created_at: 2013-03-06 14:17:27.316599 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:27.536099 Z
+    name: punk
+    id: 318
+    created_at: 2013-03-06 14:17:27.536099 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:27.746106 Z
+    name: pop punk
+    id: 319
+    created_at: 2013-03-06 14:17:27.746106 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:28.185404 Z
+    name: punk rock
+    id: 320
+    created_at: 2013-03-06 14:17:28.185404 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:51.418763 Z
+    name: Asian
+    id: 325
+    created_at: 2013-03-06 14:17:51.418763 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:51.747833 Z
+    name: taiwan
+    id: 326
+    created_at: 2013-03-06 14:17:51.747833 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:52.078420 Z
+    name: taiwanese
+    id: 327
+    created_at: 2013-03-06 14:17:52.078420 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:17:52.298638 Z
+    name: rap
+    id: 328
+    created_at: 2013-03-06 14:17:52.298638 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:18:14.354336 Z
+    name: j-pop
+    id: 339
+    created_at: 2013-03-06 14:18:14.354336 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:18:28.406783 Z
+    name: classic rock
+    id: 348
+    created_at: 2013-03-06 14:18:28.406783 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:19:42.332014 Z
+    name: 60s
+    id: 389
+    created_at: 2013-03-06 14:19:42.332014 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:19:42.772491 Z
+    name: psychedelic
+    id: 390
+    created_at: 2013-03-06 14:19:42.772491 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:20:17.515590 Z
+    name: dream pop
+    id: 399
+    created_at: 2013-03-06 14:20:17.515590 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:20:31.647385 Z
+    name: folk
+    id: 406
+    created_at: 2013-03-06 14:20:31.647385 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:20:59.744954 Z
+    name: electronica
+    id: 421
+    created_at: 2013-03-06 14:20:59.744954 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:21:00.263000 Z
+    name: House
+    id: 423
+    created_at: 2013-03-06 14:21:00.263000 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:22:52.166928 Z
+    name: folk rock
+    id: 489
+    created_at: 2013-03-06 14:22:52.166928 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:22:52.717224 Z
+    name: indie folk
+    id: 490
+    created_at: 2013-03-06 14:22:52.717224 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:24:36.631049 Z
+    name: ambient
+    id: 545
+    created_at: 2013-03-06 14:24:36.631049 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:25:09.109291 Z
+    name: Pure Music
+    id: 570
+    created_at: 2013-03-06 14:25:09.109291 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:26:56.764378 Z
+    name: post-punk
+    id: 625
+    created_at: 2013-03-06 14:26:56.764378 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:28:59.577084 Z
+    name: french
+    id: 665
+    created_at: 2013-03-06 14:28:59.577084 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:33:24.987421 Z
+    name: art rock
+    id: 777
+    created_at: 2013-03-06 14:33:24.987421 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:33:45.335698 Z
+    name: japanese
+    id: 789
+    created_at: 2013-03-06 14:33:45.335698 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:34:08.019485 Z
+    name: JPop
+    id: 800
+    created_at: 2013-03-06 14:34:08.019485 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:34:58.577159 Z
+    name: Garage Rock
+    id: 817
+    created_at: 2013-03-06 14:34:58.577159 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:36:20.503360 Z
+    name: anime
+    id: 835
+    created_at: 2013-03-06 14:36:20.503360 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:37:36.738274 Z
+    name: japan
+    id: 873
+    created_at: 2013-03-06 14:37:36.738274 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:43:02.723653 Z
+    name: 70s
+    id: 1034
+    created_at: 2013-03-06 14:43:02.723653 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:51:03.214245 Z
+    name: Classical
+    id: 1267
+    created_at: 2013-03-06 14:51:03.214245 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:51:13.933917 Z
+    name: traditional
+    id: 1278
+    created_at: 2013-03-06 14:51:13.933917 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:51:14.142652 Z
+    name: Tibetan
+    id: 1279
+    created_at: 2013-03-06 14:51:14.142652 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:51:14.462689 Z
+    name: Aroma Therapy
+    id: 1280
+    created_at: 2013-03-06 14:51:14.462689 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:51:14.682806 Z
+    name: !binary |
+      57qv6Z+z5LmQ
+
+    id: 1281
+    created_at: 2013-03-06 14:51:14.682806 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:52:41.856520 Z
+    name: Bandari
+    id: 1283
+    created_at: 2013-03-06 14:52:41.856520 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:52:42.061932 Z
+    name: new age
+    id: 1284
+    created_at: 2013-03-06 14:52:42.061932 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:52:42.605323 Z
+    name: celtic
+    id: 1285
+    created_at: 2013-03-06 14:52:42.605323 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:52:42.803655 Z
+    name: switzerland
+    id: 1286
+    created_at: 2013-03-06 14:52:42.803655 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:52:43.122805 Z
+    name: vocal
+    id: 1287
+    created_at: 2013-03-06 14:52:43.122805 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:52:43.504444 Z
+    name: good music
+    id: 1288
+    created_at: 2013-03-06 14:52:43.504444 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:55:58.075673 Z
+    name: composer
+    id: 1291
+    created_at: 2013-03-06 14:55:58.075673 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:55:58.493002 Z
+    name: minimalism
+    id: 1292
+    created_at: 2013-03-06 14:55:58.493002 Z
+- !ruby/object:Tag 
+  attributes: 
+    updated_at: 2013-03-06 14:55:58.702043 Z
+    name: Joe Hisaishi
+    id: 1293
+    created_at: 2013-03-06 14:55:58.702043 Z
