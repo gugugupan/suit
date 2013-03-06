@@ -1,6 +1,10 @@
 class User < ActiveRecord::Base
 	# attr_accessible :title, :body
 	class << self 
+		def fetch( id )
+			User.find( id )
+		end
+
 		def initial_account
 			user = User .create()
 			Music.find( :all ) .each do | music |

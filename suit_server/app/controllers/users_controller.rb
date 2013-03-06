@@ -25,4 +25,11 @@ class UsersController < ApplicationController
 			format .json { render :json => music }
 		end
 	end
+
+	def fetch
+		return if params[ :id ] .nil?
+		respond_to do | format |
+			format .json { render :json => User.fetch( params[ :id ] ) }
+		end
+	end
 end
