@@ -20,8 +20,8 @@ class UsersController < ApplicationController
 		return if params[ :id ] .nil?
 		music = Music.best_select( params[ :id ] )
 		History.add_history( params[ :id ] , music[ :id ] )
-		music.played_times += 1
-		music.save
+		#music = Music .find( 1590 )
+		music[ :url ] = "http://10.141.247.17:3001/music/#{ music[ :id ] }.mp3"
 
 		respond_to do | format |
 			format .json { render :json => music }

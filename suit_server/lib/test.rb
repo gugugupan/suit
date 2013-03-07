@@ -47,3 +47,13 @@ tag_list = tag_list .sort { | a , b | a[ :count ] <=> b[ :count ] } #.reverse
 end 
 =end
 
+#=begin
+File.open( "lib/music2delete.txt" ) do | file |
+	while line = file .gets
+		id = line .to_i
+		History .where( :music_id => id ) .delete_all
+		Score .where( :music_id => id ) .delete_all
+		Music .delete( id )
+	end
+end
+#=end
