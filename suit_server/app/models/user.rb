@@ -13,5 +13,12 @@ class User < ActiveRecord::Base
 
 			user
 		end
+
+		def set_tag( user_id , tag_name )
+			tag = Tag.find_by_name( tag_name )
+			return if tag .nil?
+			return unless TagOfUser.where( :user_id => user_id , :tag_id => tag[ :id ] ) .nil?
+			TagOfUser.create( :user_id => user_id , :tag_id => tag[ :id ] ) 
+		end
 	end
 end

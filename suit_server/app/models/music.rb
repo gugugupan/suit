@@ -6,6 +6,16 @@ class Music < ActiveRecord::Base
 			Music.find( music_id )
 		end
 
+		def fetch_random
+			Music.find( :first , :order => "random()" )
+		end
+
+		def fetch_tag( user_id )
+			tag = TagOfUser.where( :user_id => user_id ) .find( :first , :order => "random()" )
+			return fetch_random if tag .nil?
+			Tag.fetch_music( tag[ :id ] )
+		end
+
 		def best_select( user_id )
 			best_list = Score.get_score_list( user_id )
 			hist_list = History.get_history_list( user_id )

@@ -20,15 +20,29 @@ end
 =end
 
 =begin    Migrate Tags
-i = 0 ;
+i = 1 
+File.open( "lib/tag_list.txt" ) do | file |
+	while line = file .gets
+		line = line .delete( "\n" ) ;
+		tag = Tag .new( :name => line )
+		tag[ :id ] = i
+		tag .save
+		i += 1 
+	end
+end
+=end
+
+=begin
+i = 0 
 File.open( "lib/tagofmusic.txt" ) do | file |
 	while line = file .gets
-		line .split( ";" ) .each() do | tag_str |
-			tag = Tag.find_by_name( tag_str )
-			tag = Tag.create( :name => tag_str ) if tag .nil?
-			TagOfMusic.create( :music_id => i , :tag_id => tag[ :id ] )
-		end
 		i += 1
+		unless Music .find_by_id( i ) .nil?
+			line .split( ";" ) .each do | tag_str |
+				tag = Tag .find_by_name( tag_str )
+				TagOfMusic.create( :music_id => i , :tag_id => tag[ :id ] ) unless tag .nil?
+			end
+		end
 	end
 end
 =end
@@ -47,7 +61,7 @@ tag_list = tag_list .sort { | a , b | a[ :count ] <=> b[ :count ] } #.reverse
 end 
 =end
 
-#=begin
+=begin    Delete Music
 File.open( "lib/music2delete.txt" ) do | file |
 	while line = file .gets
 		id = line .to_i
@@ -56,4 +70,4 @@ File.open( "lib/music2delete.txt" ) do | file |
 		Music .delete( id )
 	end
 end
-#=end
+=end
