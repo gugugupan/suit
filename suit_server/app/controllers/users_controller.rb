@@ -20,6 +20,8 @@ class UsersController < ApplicationController
 		return if params[ :id ] .nil?
 		music = Music.best_select( params[ :id ] )
 		History.add_history( params[ :id ] , music[ :id ] )
+		music.played_times += 1
+		music.save
 
 		respond_to do | format |
 			format .json { render :json => music }
