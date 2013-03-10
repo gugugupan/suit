@@ -174,8 +174,10 @@
 //
 - (BOOL) getMusic
 {
+    
     NSString *get = [NSString stringWithFormat:@"http://10.141.247.17:3001/users/%@/fetch_music.json?env=%d",
                      [user getInstance].userid,[user getInstance].env];
+    //NSLog(@"%@",get);
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:get]
                                                            cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData
                                                        timeoutInterval:10];
@@ -187,6 +189,7 @@
     
     
     NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:&urlResponse error:&requestError];
+    //NSLog(@"%@",[[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding]);
     NSError *error;
     if (response)
     {
@@ -196,6 +199,7 @@
         [music getInstance].artist = [dic objectForKey:@"artist"];
         [music getInstance].url = [dic objectForKey:@"url"];
         [music getInstance].score = 0;
+        
         return YES;
     }
     else

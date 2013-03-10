@@ -95,7 +95,6 @@
     {
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:response options:NSJSONReadingMutableLeaves error:&error];
         [user getInstance].userid = [dic objectForKey:@"id"];
-        NSLog(@"%@",[user getInstance].userid);
     }
 }
 - (void) player:(NSNotification*)notification

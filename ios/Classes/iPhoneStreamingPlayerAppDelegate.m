@@ -21,9 +21,10 @@
 @synthesize rootController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+
     self.rootController = [[RootController alloc] initWithNibName:@"RootController" bundle:nil];
     // Override point for customization after app launch    
-    [window setRootViewController:rootController];
+    [window setRootViewController:self.rootController];
     [window makeKeyAndVisible];
 }
 
@@ -35,7 +36,6 @@
 }
 - (void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
 {
-    NSLog(@"fucking");
     [[NSNotificationCenter defaultCenter] postNotificationName:@"motion" object:nil userInfo:nil];
     
 }
